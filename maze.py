@@ -1,10 +1,20 @@
-#!/usr/bin/python
+"""
+
+# Maze Solver with BFS Algorithm
+
+Created by:
+M.Algah Fattah I / 13517122
+Yudy Valentino / 13517128
+
+"""
+
+# !/usr/bin/python
 from matplotlib import pyplot as plt
 import sys
 from termcolor import colored
 
 filename = sys.argv[1]
-sauce = open("mazes/"+filename).read()
+sauce = open("mazes/" + filename).read()
 sauce = sauce.split()
 
 maze = []
@@ -158,5 +168,4 @@ plt.xticks([]) # remove the tick marks by setting to an empty list
 plt.yticks([]) # remove the tick marks by setting to an empty list
 plt.axes().invert_yaxis() #invert the y-axis so the first row of data is at the top
 plt.show()
-
 
