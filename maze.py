@@ -1,8 +1,8 @@
 """
-
-# Maze Solver with BFS Algorithm
+Maze Solver with BFS Algorithm.
 
 Created by:
+
 M.Algah Fattah I / 13517122
 Yudy Valentino / 13517128
 
