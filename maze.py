@@ -10,6 +10,7 @@ Yudy Valentino / 13517128
 
 # !/usr/bin/python
 from matplotlib import pyplot as plt
+from matplotlib import colors
 import sys
 # from termcolor import colored
 
@@ -154,12 +155,13 @@ for i in jalur:
 #           pass
 #       else:
 #           row.append(c) # wall
+
 #   result.append(row)
 
 # for i in maze:
 #   print (i)
 
-
+plt.title("Maze Solver with BFS Algorithm")
 plt.pcolormesh(maze)
 plt.axes().set_aspect('equal')  # set the x and y axes to the same scale
 plt.xticks([])  # remove the tick marks by setting to an empty list
