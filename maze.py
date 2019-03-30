@@ -221,11 +221,10 @@ labirin = Maze(f,s,d)
 if(algo == 'a'):
     # print "coming soon"
     labirin.drawAStar()
-
 elif(algo == 'b'):  
     labirin.drawBFS()
 else:
-    print "it is either a or b bro"
+    print ("it is either a or b bro")
 
 
 
