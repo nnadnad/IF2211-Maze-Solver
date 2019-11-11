@@ -1,1 +1,1 @@
-# Tugas Kecil IIIStrategi Algorima
+# Tugas Kecil III Strategi Algorima
